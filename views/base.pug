@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    title BookDen
+    block scripts
+    block style 
+      script(src='/jquery.js')
+  body
+
+    nav#navbar 
+        ul
+            img(src="../static/images/logo.png", alt="logo")
+            li #[a(href="/") Home]  
+            li #[a(href="/books") Books] 
+            li #[a(href="/") Authors]  
+            li #[a(href="/") Publish] 
+            li #[a(href="/contact") Contact] 
+    block body 
+
+    footer#footer 
+        .foot 
+            .box 
+              img(src="../static/images/logo.png", alt="logo")
+              p the book emporium
+            .box 
+              li Explore Genre
+              li Publish Your Own Writings
+              li Meet Our Authors
+              li Contact Us
+            .social 
+              p Our Social Networks
+              img(src="../static/images/facebook.png", alt="facebook")
+              img(src="../static/images/insta.png", alt="instagram")
+              img(src="../static/images/twitter.webp", alt="twitter")

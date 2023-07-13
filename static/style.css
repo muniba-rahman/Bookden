@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500 &family=Fasthand&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dancing+Script:wght@500&family=Fasthand&family=Raleway:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+#navbar ul {
+    background-color: #5b2c0b;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 140px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#navbar ul img {
+    width: 155px;
+    height: 33px;
+    margin-right: 500px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+#navbar li {
+    list-style: none;
+    padding-bottom: 0;
+}
+
+#navbar li a {
+    color: beige;
+    text-decoration: none;
+    padding: 60px 30px;
+    /* padding-bottom: 0px; */
+
+}
+#navbar li a:hover {
+    color: #E27802;
+}
+
+#introSection {
+    background: center / cover no-repeat url('../static/images/bookbg1.png');
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#introSection h2 {
+    font-size: 2rem;
+}
+
+#serviceSection {
+    text-align: center;
+    background-color: #FBE6D4;
+    padding-top: 33px;
+}
+
+#serviceSection h1 {
+    margin-top: 23px;
+    font-size: 2rem;
+    color: #9D5C0D;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.card {
+    border: 2px solid #9D5C0D;
+    border-radius: 7px;
+    margin: 33px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+}
+
+#sponsorSection {
+    /* text-align: center; */
+    background-color: #FBE6D4;
+    padding-top: 33px;
+}
+
+#sponsorSection h1 {
+    margin-top: 23px;
+    font-size: 2rem;
+    color: #9D5C0D;
+    text-align: center;
+}
+.sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 33px 40px;
+}
+#liberty {
+    padding: 22px;
+}
+#readings {
+    padding: 22px;
+}
+
+
+#footer {
+    background-color: #A35709;
+    color: beige;
+    height: fit-content;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 23px 70px;
+}
+
+.box {
+    padding: 12px 40px;
+}
+
+.box img {
+    width: 200px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.box li {
+    list-style: none;
+    text-decoration: none;
+    padding: 13px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.box p {
+    display: block;
+}
+.social img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.box li:hover {
+    color: #5b2c0b;
+}
+
+.social {
+    padding: 15px;
+    margin: 12px;
+}
+.social p {
+    padding: 12px;
+}

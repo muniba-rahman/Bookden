@@ -1,0 +1,37 @@
+extends base.pug
+
+
+block scripts 
+    script(src="../static/index.js")
+
+block style 
+    style
+      include ../static/style.css
+
+block body 
+    
+    section#introSection 
+    
+    section#serviceSection
+        h1 Our Services
+        .container  
+            .card 
+                img(src="../static/images/delivery.png", alt="image")
+                p Fast Delivery
+            .card
+                img(src="../static/images/shipping.webp", alt="image")
+                p Worldwide Shipping 
+            .card 
+                img(src="../static/images/book.png", alt="image")
+                p Original Books
+            .card 
+                img(src="../static/images/gift.png", alt="image")
+                p Best Discounts  
+
+    section#sponsorSection 
+        h1 Our Sponsors 
+        .sponsors 
+            #liberty  
+                img(src="../static/images/liberty.png", alt="liberty") 
+            #readings
+                img(src="../static/images/readings.png", alt="readings")
